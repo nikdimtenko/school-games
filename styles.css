@@ -1,7 +1,7 @@
 .main {
 	min-height: 100vh;
 	width: 100%;
-	background-color: #fdefef;
+	background: url("images/bg3.jpeg");
 }
 
 .content {
@@ -25,6 +25,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-weight: 500;
 }
 
 .my-info__first {
@@ -38,13 +39,15 @@
 }
 
 .my-info__credo {
-	margin-left: 100px;
-	padding: 5px 10px 0 10px;
+	font-weight: 500;
+	margin-left: 90px;
+	padding: 10px 10px 0 10px;
 	font-size: 18px;
 	line-height: 20px;
 	color: gray;
+	margin-top: 10px;
+	background-color: beige;
 	border-radius: 12px;
-	background-color: #fdefef;
 }
 
 .my-info__copyright {
@@ -87,17 +90,13 @@
 	height: 160px;
 }
 
-.album {
-	background: url("images/gallery.jpeg") no-repeat center;
-	background-size: cover;
-}
-
 .gallery-photo {
 	max-height: 250px;
 }
 
 .teacher-title {
 	display: flex;
+	margin-top: 20px;
 	justify-content: center;
 	background-color: #f7ebd9;
 	border-radius: 40px;
