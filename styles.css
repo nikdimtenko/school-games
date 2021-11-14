@@ -88,10 +88,21 @@
 }
 
 .album {
-	height: 100vh;
-	background-color: #fdefef;
+	background: url("images/gallery.jpeg") no-repeat center;
+	background-size: cover;
 }
 
 .gallery-photo {
-	max-height: 200px;
+	max-height: 250px;
+}
+
+.teacher-title {
+	display: flex;
+	justify-content: center;
+	background-color: #f7ebd9;
+	border-radius: 40px;
+}
+
+.teacher-title img {
+	height: 250px;
 }
